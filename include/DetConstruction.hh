@@ -25,7 +25,7 @@ public:
 	virtual G4VPhysicalVolume* Construct();
 
 private:
-
+	//sensitive detector
 	virtual void ConstructSDandField();
 };
 #endif
