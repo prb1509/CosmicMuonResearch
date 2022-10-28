@@ -1,0 +1,34 @@
+#Macro file for running events.
+#This is specifically for a large number of events, so it is highly recommended to run in batch mode without any graphics.
+
+#file name
+/analysis/setFileName Gold{counter}
+
+#Define particle
+/gps/particle mu-
+
+#Energy distribution
+/gps/ene/type Pow
+/gps/ene/alpha -2.5
+/gps/ene/max 100 GeV
+/gps/ene/min 1 GeV
+
+#Angular distribution
+/gps/ang/type cos
+/gps/ang/mintheta 0 deg
+/gps/ang/maxtheta 70 deg
+
+#Source geometry
+/gps/pos/type Beam
+#/gps/pos/shape Circle
+/gps/pos/rot1 0 1 0
+/gps/pos/rot2 1 0 0
+/gps/pos/centre 0 0 0.5 m
+
+#Direction of particle momentum
+/gps/direction 0 0 -1
+
+#progress update
+#and number of particles
+/run/printProgress 5000
+/run/beamOn 20000

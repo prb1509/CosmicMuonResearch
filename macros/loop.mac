@@ -1,0 +1,7 @@
+#Macro file for analysis
+
+#Loop runs
+#Too many runs in a loop may consume too much 
+#memory and crash, anecdotally speaking
+#loop format: /control/loop filename start end increment
+/control/loop run_large.mac counter 0 4 1
