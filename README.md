@@ -5,7 +5,6 @@ electrons forming from the showers, and their corresponding
 energies are calculated.
 
 ---
----
 
 ## CODE
 
