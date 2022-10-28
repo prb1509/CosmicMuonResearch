@@ -1,0 +1,421 @@
+List of particles available for G4EmStandardPhysics physics list. 
+More can be found if you use a different physics list.
+
+--- G4ParticleDefinition ---
+Particle Name : GenericIon
+ PDG particle code : 0 [PDG anti-particle code: 0]
+ Mass [GeV/c2] : 0.938272     Width : 0
+ Lifetime [nsec] : -1
+ Charge [e]: 1
+ Spin : 1/2
+ Parity : 1
+ Charge conjugation : 0
+ Isospin : (I,Iz): (1/2 , 1/2 ) 
+ GParity : 0
+ Quark contents     (d,u,s,c,b,t) : 0, 0, 0, 0, 0, 0
+ AntiQuark contents               : 0, 0, 0, 0, 0, 0
+ Lepton number : 0 Baryon number : 1
+ Particle type : nucleus [generic]
+ Atomic Number : 1  Atomic Mass : 1
+ Stable : stable
+
+--- G4ParticleDefinition ---
+ Particle Name : He3
+ PDG particle code : 1000020030 [PDG anti-particle code: -1000020030]
+ Mass [GeV/c2] : 2.80839     Width : 0
+ Lifetime [nsec] : -1
+ Charge [e]: 2
+ Spin : 1/2
+ Parity : 1
+ Charge conjugation : 0
+ Isospin : (I,Iz): (0/2 , 0/2 ) 
+ GParity : 0
+ MagneticMoment [MeV/T] : -6.70723e-14
+ Quark contents     (d,u,s,c,b,t) : 5, 4, 0, 0, 0, 0
+ AntiQuark contents               : 0, 0, 0, 0, 0, 0
+ Lepton number : 0 Baryon number : 3
+ Particle type : nucleus [static]
+ Atomic Number : 2  Atomic Mass : 3
+ Stable : stable
+
+--- G4ParticleDefinition ---
+ Particle Name : alpha
+ PDG particle code : 1000020040 [PDG anti-particle code: -1000020040]
+ Mass [GeV/c2] : 3.72738     Width : 0
+ Lifetime [nsec] : -1
+ Charge [e]: 2
+ Spin : 0/2
+ Parity : 1
+ Charge conjugation : 0
+ Isospin : (I,Iz): (0/2 , 0/2 ) 
+ GParity : 0
+ Quark contents     (d,u,s,c,b,t) : 6, 6, 0, 0, 0, 0
+ AntiQuark contents               : 0, 0, 0, 0, 0, 0
+ Lepton number : 0 Baryon number : 4
+ Particle type : nucleus [static]
+ Atomic Number : 2  Atomic Mass : 4
+ Stable : stable
+
+--- G4ParticleDefinition ---
+ Particle Name : anti_He3
+ PDG particle code : -1000020030 [PDG anti-particle code: 1000020030]
+ Mass [GeV/c2] : 2.80839     Width : 0
+ Lifetime [nsec] : -1
+ Charge [e]: -2
+ Spin : 1/2
+ Parity : 1
+ Charge conjugation : 0
+ Isospin : (I,Iz): (0/2 , 0/2 ) 
+ GParity : 0
+ MagneticMoment [MeV/T] : 6.70723e-14
+ Quark contents     (d,u,s,c,b,t) : 0, 0, 0, 0, 0, 0
+ AntiQuark contents               : 5, 4, 0, 0, 0, 0
+ Lepton number : 0 Baryon number : -3
+ Particle type : anti_nucleus [static]
+ Atomic Number : 2  Atomic Mass : 3
+ Stable : stable
+
+--- G4ParticleDefinition ---
+ Particle Name : anti_alpha
+ PDG particle code : -1000020040 [PDG anti-particle code: 1000020040]
+ Mass [GeV/c2] : 3.72738     Width : 0
+ Lifetime [nsec] : -1
+ Charge [e]: -2
+ Spin : 0/2
+ Parity : 1
+ Charge conjugation : 0
+ Isospin : (I,Iz): (0/2 , 0/2 ) 
+ GParity : 0
+ Quark contents     (d,u,s,c,b,t) : 0, 0, 0, 0, 0, 0
+ AntiQuark contents               : 6, 6, 0, 0, 0, 0
+ Lepton number : 0 Baryon number : -4
+ Particle type : anti_nucleus [static]
+ Atomic Number : 2  Atomic Mass : 4
+ Stable : stable
+
+--- G4ParticleDefinition ---
+ Particle Name : anti_deuteron
+ PDG particle code : -1000010020 [PDG anti-particle code: 1000010020]
+ Mass [GeV/c2] : 1.87561     Width : 0
+ Lifetime [nsec] : -1
+ Charge [e]: -1
+ Spin : 2/2
+ Parity : 1
+ Charge conjugation : 0
+ Isospin : (I,Iz): (0/2 , 0/2 ) 
+ GParity : 0
+ MagneticMoment [MeV/T] : -2.70303e-14
+ Quark contents     (d,u,s,c,b,t) : 0, 0, 0, 0, 0, 0
+ AntiQuark contents               : 3, 3, 0, 0, 0, 0
+ Lepton number : 0 Baryon number : -2
+ Particle type : anti_nucleus [static]
+ Atomic Number : 1  Atomic Mass : 2
+ Stable : stable
+
+--- G4ParticleDefinition ---
+ Particle Name : anti_proton
+ PDG particle code : -2212 [PDG anti-particle code: 2212]
+ Mass [GeV/c2] : 0.938272     Width : 0
+ Lifetime [nsec] : -1
+ Charge [e]: -1
+ Spin : 1/2
+ Parity : 1
+ Charge conjugation : 0
+ Isospin : (I,Iz): (1/2 , -1/2 ) 
+ GParity : 0
+ MagneticMoment [MeV/T] : -8.80432e-14
+ Quark contents     (d,u,s,c,b,t) : 0, 0, 0, 0, 0, 0
+ AntiQuark contents               : 1, 2, 0, 0, 0, 0
+ Lepton number : 0 Baryon number : -1
+ Particle type : baryon [nucleon]
+ Atomic Number : 1  Atomic Mass : 1
+ Stable : stable
+
+--- G4ParticleDefinition ---
+ Particle Name : anti_triton
+ PDG particle code : -1000010030 [PDG anti-particle code: 1000010030]
+ Mass [GeV/c2] : 2.80892     Width : 0
+ Lifetime [nsec] : -1
+ Charge [e]: -1
+ Spin : 1/2
+ Parity : 1
+ Charge conjugation : 0
+ Isospin : (I,Iz): (0/2 , 0/2 ) 
+ GParity : 0
+ MagneticMoment [MeV/T] : -9.39103e-14
+ Quark contents     (d,u,s,c,b,t) : 0, 0, 0, 0, 0, 0
+ AntiQuark contents               : 4, 5, 0, 0, 0, 0
+ Lepton number : 0 Baryon number : -3
+ Particle type : anti_nucleus [static]
+ Atomic Number : 1  Atomic Mass : 3
+ Stable : stable
+
+--- G4ParticleDefinition ---
+ Particle Name : chargedgeantino
+ PDG particle code : 0 [PDG anti-particle code: 0]
+ Mass [GeV/c2] : 0     Width : 0
+ Lifetime [nsec] : -1
+ Charge [e]: 1
+ Spin : 0/2
+ Parity : 0
+ Charge conjugation : 0
+ Isospin : (I,Iz): (0/2 , 0/2 ) 
+ GParity : 0
+ Quark contents     (d,u,s,c,b,t) : 0, 0, 0, 0, 0, 0
+ AntiQuark contents               : 0, 0, 0, 0, 0, 0
+ Lepton number : 0 Baryon number : 0
+ Particle type : geantino [geantino]
+ Stable : stable
+
+--- G4ParticleDefinition ---
+ Particle Name : deuteron
+ PDG particle code : 1000010020 [PDG anti-particle code: -1000010020]
+ Mass [GeV/c2] : 1.87561     Width : 0
+ Lifetime [nsec] : -1
+ Charge [e]: 1
+ Spin : 2/2
+ Parity : 1
+ Charge conjugation : 0
+ Isospin : (I,Iz): (0/2 , 0/2 ) 
+ GParity : 0
+ MagneticMoment [MeV/T] : 2.70303e-14
+ Quark contents     (d,u,s,c,b,t) : 3, 3, 0, 0, 0, 0
+ AntiQuark contents               : 0, 0, 0, 0, 0, 0
+ Lepton number : 0 Baryon number : 2
+ Particle type : nucleus [static]
+ Atomic Number : 1  Atomic Mass : 2
+ Stable : stable
+
+--- G4ParticleDefinition ---
+ Particle Name : e+
+ PDG particle code : -11 [PDG anti-particle code: 11]
+ Mass [GeV/c2] : 0.000510999     Width : 0
+ Lifetime [nsec] : -1
+ Charge [e]: 1
+ Spin : 1/2
+ Parity : 0
+ Charge conjugation : 0
+ Isospin : (I,Iz): (0/2 , 0/2 ) 
+ GParity : 0
+ MagneticMoment [MeV/T] : 5.79509e-11
+ Quark contents     (d,u,s,c,b,t) : 0, 0, 0, 0, 0, 0
+ AntiQuark contents               : 0, 0, 0, 0, 0, 0
+ Lepton number : -1 Baryon number : 0
+ Particle type : lepton [e]
+ Stable : stable
+
+--- G4ParticleDefinition ---
+ Particle Name : e-
+ PDG particle code : 11 [PDG anti-particle code: -11]
+ Mass [GeV/c2] : 0.000510999     Width : 0
+ Lifetime [nsec] : -1
+ Charge [e]: -1
+ Spin : 1/2
+ Parity : 0
+ Charge conjugation : 0
+ Isospin : (I,Iz): (0/2 , 0/2 ) 
+ GParity : 0
+ MagneticMoment [MeV/T] : -5.79509e-11
+ Quark contents     (d,u,s,c,b,t) : 0, 0, 0, 0, 0, 0
+ AntiQuark contents               : 0, 0, 0, 0, 0, 0
+ Lepton number : 1 Baryon number : 0
+ Particle type : lepton [e]
+ Stable : stable
+
+--- G4ParticleDefinition ---
+ Particle Name : gamma
+ PDG particle code : 22 [PDG anti-particle code: 22]
+ Mass [GeV/c2] : 0     Width : 0
+ Lifetime [nsec] : -1
+ Charge [e]: 0
+ Spin : 2/2
+ Parity : -1
+ Charge conjugation : -1
+ Isospin : (I,Iz): (0/2 , 0/2 ) 
+ GParity : 0
+ Quark contents     (d,u,s,c,b,t) : 0, 0, 0, 0, 0, 0
+ AntiQuark contents               : 0, 0, 0, 0, 0, 0
+ Lepton number : 0 Baryon number : 0
+ Particle type : gamma [photon]
+ Stable : stable
+
+--- G4ParticleDefinition ---
+ Particle Name : geantino
+ PDG particle code : 0 [PDG anti-particle code: 0]
+ Mass [GeV/c2] : 0     Width : 0
+ Lifetime [nsec] : -1
+ Charge [e]: 0
+ Spin : 0/2
+ Parity : 0
+ Charge conjugation : 0
+ Isospin : (I,Iz): (0/2 , 0/2 ) 
+ GParity : 0
+ Quark contents     (d,u,s,c,b,t) : 0, 0, 0, 0, 0, 0
+ AntiQuark contents               : 0, 0, 0, 0, 0, 0
+ Lepton number : 0 Baryon number : 0
+ Particle type : geantino [geantino]
+ Stable : stable
+
+--- G4ParticleDefinition ---
+ Particle Name : kaon+
+ PDG particle code : 321 [PDG anti-particle code: -321]
+ Mass [GeV/c2] : 0.493677     Width : 5.317e-17
+ Lifetime [nsec] : 12.38
+ Charge [e]: 1
+ Spin : 0/2
+ Parity : -1
+ Charge conjugation : 0
+ Isospin : (I,Iz): (1/2 , 1/2 ) 
+ GParity : 0
+ Quark contents     (d,u,s,c,b,t) : 0, 1, 0, 0, 0, 0
+ AntiQuark contents               : 0, 0, 1, 0, 0, 0
+ Lepton number : 0 Baryon number : 0
+ Particle type : meson [kaon]
+G4DecayTable:  kaon+
+0:  BR:  0.6355  [Phase Space]   :   mu+ nu_mu
+1:  BR:  0.2066  [Phase Space]   :   pi+ pi0
+2:  BR:  0.0559  [Phase Space]   :   pi+ pi+ pi-
+3:  BR:  0.0507  [KL3 Decay]   :   pi0 e+ nu_e
+4:  BR:  0.0335  [KL3 Decay]   :   pi0 mu+ nu_mu
+5:  BR:  0.01761  [Phase Space]   :   pi+ pi0 pi0
+
+
+--- G4ParticleDefinition ---
+ Particle Name : kaon-
+ PDG particle code : -321 [PDG anti-particle code: 321]
+ Mass [GeV/c2] : 0.493677     Width : 5.317e-17
+ Lifetime [nsec] : 12.38
+ Charge [e]: -1
+ Spin : 0/2
+ Parity : -1
+ Charge conjugation : 0
+ Isospin : (I,Iz): (1/2 , -1/2 ) 
+ GParity : 0
+ Quark contents     (d,u,s,c,b,t) : 0, 0, 1, 0, 0, 0
+ AntiQuark contents               : 0, 1, 0, 0, 0, 0
+ Lepton number : 0 Baryon number : 0
+ Particle type : meson [kaon]
+G4DecayTable:  kaon-
+0:  BR:  0.6355  [Phase Space]   :   mu- anti_nu_mu
+1:  BR:  0.2066  [Phase Space]   :   pi- pi0
+2:  BR:  0.0559  [Phase Space]   :   pi- pi+ pi-
+3:  BR:  0.0507  [KL3 Decay]   :   pi0 e- anti_nu_e
+4:  BR:  0.0335  [KL3 Decay]   :   pi0 mu- anti_nu_mu
+5:  BR:  0.01761  [Phase Space]   :   pi- pi0 pi0
+
+
+--- G4ParticleDefinition ---
+ Particle Name : mu+
+ PDG particle code : -13 [PDG anti-particle code: 13]
+ Mass [GeV/c2] : 0.105658     Width : 2.99598e-19
+ Lifetime [nsec] : 2196.98
+ Charge [e]: 1
+ Spin : 1/2
+ Parity : 0
+ Charge conjugation : 0
+ Isospin : (I,Iz): (0/2 , 0/2 ) 
+ GParity : 0
+ MagneticMoment [MeV/T] : 2.80272e-13
+ Quark contents     (d,u,s,c,b,t) : 0, 0, 0, 0, 0, 0
+ AntiQuark contents               : 0, 0, 0, 0, 0, 0
+ Lepton number : -1 Baryon number : 0
+ Particle type : lepton [mu]
+G4DecayTable:  mu+
+0:  BR:  1  [Muon Decay]   :   e+ nu_e anti_nu_mu
+
+
+--- G4ParticleDefinition ---
+ Particle Name : mu-
+ PDG particle code : 13 [PDG anti-particle code: -13]
+ Mass [GeV/c2] : 0.105658     Width : 2.99598e-19
+ Lifetime [nsec] : 2196.98
+ Charge [e]: -1
+ Spin : 1/2
+ Parity : 0
+ Charge conjugation : 0
+ Isospin : (I,Iz): (0/2 , 0/2 ) 
+ GParity : 0
+ MagneticMoment [MeV/T] : -2.80272e-13
+ Quark contents     (d,u,s,c,b,t) : 0, 0, 0, 0, 0, 0
+ AntiQuark contents               : 0, 0, 0, 0, 0, 0
+ Lepton number : 1 Baryon number : 0
+ Particle type : lepton [mu]
+G4DecayTable:  mu-
+0:  BR:  1  [Muon Decay]   :   e- anti_nu_e nu_mu
+
+
+--- G4ParticleDefinition ---
+ Particle Name : pi+
+ PDG particle code : 211 [PDG anti-particle code: -211]
+ Mass [GeV/c2] : 0.13957     Width : 2.5284e-17
+ Lifetime [nsec] : 26.033
+ Charge [e]: 1
+ Spin : 0/2
+ Parity : -1
+ Charge conjugation : 0
+ Isospin : (I,Iz): (2/2 , 2/2 ) 
+ GParity : -1
+ Quark contents     (d,u,s,c,b,t) : 0, 1, 0, 0, 0, 0
+ AntiQuark contents               : 1, 0, 0, 0, 0, 0
+ Lepton number : 0 Baryon number : 0
+ Particle type : meson [pi]
+G4DecayTable:  pi+
+0:  BR:  1  [Phase Space]   :   mu+ nu_mu
+
+
+--- G4ParticleDefinition ---
+ Particle Name : pi-
+ PDG particle code : -211 [PDG anti-particle code: 211]
+ Mass [GeV/c2] : 0.13957     Width : 2.5284e-17
+ Lifetime [nsec] : 26.033
+ Charge [e]: -1
+ Spin : 0/2
+ Parity : -1
+ Charge conjugation : 0
+ Isospin : (I,Iz): (2/2 , -2/2 ) 
+ GParity : -1
+ Quark contents     (d,u,s,c,b,t) : 1, 0, 0, 0, 0, 0
+ AntiQuark contents               : 0, 1, 0, 0, 0, 0
+ Lepton number : 0 Baryon number : 0
+ Particle type : meson [pi]
+G4DecayTable:  pi-
+0:  BR:  1  [Phase Space]   :   mu- anti_nu_mu
+
+
+--- G4ParticleDefinition ---
+ Particle Name : proton
+ PDG particle code : 2212 [PDG anti-particle code: -2212]
+ Mass [GeV/c2] : 0.938272     Width : 0
+ Lifetime [nsec] : -1
+ Charge [e]: 1
+ Spin : 1/2
+ Parity : 1
+ Charge conjugation : 0
+ Isospin : (I,Iz): (1/2 , 1/2 ) 
+ GParity : 0
+ MagneticMoment [MeV/T] : 8.80432e-14
+ Quark contents     (d,u,s,c,b,t) : 1, 2, 0, 0, 0, 0
+ AntiQuark contents               : 0, 0, 0, 0, 0, 0
+ Lepton number : 0 Baryon number : 1
+ Particle type : baryon [nucleon]
+ Atomic Number : 1  Atomic Mass : 1
+ Stable : stable
+
+--- G4ParticleDefinition ---
+ Particle Name : triton
+ PDG particle code : 1000010030 [PDG anti-particle code: -1000010030]
+ Mass [GeV/c2] : 2.80892     Width : 0
+ Lifetime [nsec] : 3.88524e+17
+ Charge [e]: 1
+ Spin : 1/2
+ Parity : 1
+ Charge conjugation : 0
+ Isospin : (I,Iz): (0/2 , 0/2 ) 
+ GParity : 0
+ MagneticMoment [MeV/T] : 9.39103e-14
+ Quark contents     (d,u,s,c,b,t) : 4, 5, 0, 0, 0, 0
+ AntiQuark contents               : 0, 0, 0, 0, 0, 0
+ Lepton number : 0 Baryon number : 3
+ Particle type : nucleus [static]
+ Atomic Number : 1  Atomic Mass : 3
+ Stable : stable
